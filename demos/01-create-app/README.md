@@ -1,0 +1,3 @@
+# <a name="completed-module-create-a-react-single-page-app"></a>Módulo concluído: criar um aplicativo de reAgem de página única
+
+A versão do projeto nesse diretório reflete a conclusão do tutorial para a [criação de um aplicativo de única página de reagir](https://docs.microsoft.com/graph/training/react-tutorial?tutorial-step=1). Se você usar esta versão do projeto, precisará concluir o restante do tutorial começando em [registrar o aplicativo no portal](https://docs.microsoft.com/graph/training/react-tutorial?tutorial-step=2).
