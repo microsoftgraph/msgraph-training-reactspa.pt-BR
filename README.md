@@ -2,7 +2,7 @@
 
 Este módulo mostrará a você como trabalhar com o Microsoft Graph na criação de um aplicativo de página única reagir para acessar dados no Office 365.
 
-## <a name="lab---react-single-page-apps-with-the-microsoft-graph"></a>Laboratório – reAgir aplicativos de página única com o Microsoft Graph
+## <a name="lab---react-single-page-apps-with-the-microsoft-graph"></a>Laboratório – reagir aplicativos de página única com o Microsoft Graph
 
 Neste laboratório, você criará um aplicativo de remissão de página única, configurado com o Azure Active Directory (Azure AD) para autenticação do & de autenticação, que acessa dados no Office 365 usando o Microsoft Graph.
 

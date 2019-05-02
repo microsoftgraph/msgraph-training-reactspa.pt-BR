@@ -20,7 +20,7 @@ Consulte a seção sobre [execução de testes](https://facebook.github.io/creat
 ### `npm run build`
 
 Cria o aplicativo para produção na `build` pasta.<br>
-Ele agrupa corretamente reAgem no modo de produção e otimiza a compilação para o melhor desempenho.
+Ele agrupa corretamente reagem no modo de produção e otimiza a compilação para o melhor desempenho.
 
 A compilação é empacotar minimizadas e os nomes de fileincluir os hashes.<br>
 Seu aplicativo está pronto para ser implantado!
@@ -35,9 +35,9 @@ Se você não estiver satisfeito com as opções de ferramenta de compilação e
 
 Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc.) diretamente para o seu projeto, para que você tenha controle total sobre eles. Todos os comandos, exceto `eject` continuarão a funcionar, mas apontarão para os scripts copiados, para que você possa ajustá-los. Neste ponto, você está sozinho.
 
-Você não precisa usar `eject`o. O conjunto de recursos organizados é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No enTanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estiver pronto para ela.
+Você não precisa usar `eject`o. O conjunto de recursos organizados é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estiver pronto para ela.
 
-## <a name="learn-more"></a>Saiba Mais
+## <a name="learn-more"></a>Saiba mais
 
 Você pode saber mais na [documentação criar reagir aplicativo](https://facebook.github.io/create-react-app/docs/getting-started).
 
