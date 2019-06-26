@@ -4,7 +4,7 @@
 
 Para executar o projeto concluído nessa pasta, você precisará do seguinte:
 
-- [Visual Studio](https://visualstudio.microsoft.com/vs/) instalado em sua máquina de desenvolvimento. Se você não tiver o Visual Studio, visite o link anterior para opções de download. (**Observação:** este tutorial foi escrito com o Visual Studio 2017 versão 15,81. As etapas deste guia podem funcionar com outras versões, mas que não foram testadas.
+- [Node. js](https://nodejs.org) instalado em sua máquina de desenvolvimento. Se você não tiver o Node. js, visite o link anterior para opções de download. (**Observação:** este tutorial foi escrito com o nó versão 10.15.3. As etapas deste guia podem funcionar com outras versões, mas que não foram testadas.
 - Uma conta pessoal da Microsoft com uma caixa de correio no Outlook.com ou uma conta corporativa ou de estudante da Microsoft.
 
 Se você não tem uma conta da Microsoft, há algumas opções para obter uma conta gratuita:
@@ -32,7 +32,7 @@ Se você não tem uma conta da Microsoft, há algumas opções para obter uma co
 
     ![Uma captura de tela da ID do aplicativo do novo registro de aplicativo](/tutorial/images/aad-application-id.png)
 
-1. Selecione **Autenticação** em **Gerenciar**. Localize a seção **Grant implícita** e habilite tokens de **acesso** e tokens de **ID**. Selecione **Salvar**.
+1. Selecione **Autenticação** em **Gerenciar**. Localize a seção **Grant implícita** e habilite tokens de **acesso** e tokens de **ID**. Escolha **Salvar**.
 
     ![Uma captura de tela da seção Grant implícita](/tutorial/images/aad-implicit-grant.png)
 

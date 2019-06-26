@@ -4,7 +4,7 @@ Este módulo mostrará a você como trabalhar com o Microsoft Graph na criação
 
 ## <a name="lab---react-single-page-apps-with-the-microsoft-graph"></a>Laboratório – reagir aplicativos de página única com o Microsoft Graph
 
-Neste laboratório, você criará um aplicativo de remissão de página única, configurado com o Azure Active Directory (Azure AD) para autenticação do & de autenticação, que acessa dados no Office 365 usando o Microsoft Graph.
+Neste laboratório, você criará um aplicativo de remissão de página única, configurado com o Azure Active Directory (Azure AD) para autenticação & autorização, que acessa dados no Office 365 usando o Microsoft Graph.
 
 - [Responder o tutorial do Microsoft Graph](https://docs.microsoft.com/graph/training/react-tutorial)
 
@@ -21,6 +21,31 @@ O [](./demos) diretório demos neste repositório contém cópias do projeto que
 Se você só quiser que o exemplo completo seja gerado seguindo este laboratório, você pode encontrá-lo aqui.
 
 - [Projeto concluído](demos/03-add-msgraph)
+
+## <a name="watch-the-module"></a>Assista ao módulo
+
+Este módulo foi gravado e está disponível no Office Development YouTube Channel: [criar reagir spas usam com o Microsoft Graph](https://youtu.be/IghiKqly-HY)
+
+## <a name="contributors"></a>Colaboradores
+
+|           Funções           |                                           Autor (es)                                           |
+| ------------------------- | --------------------------------------------------------------------------------------------- |
+| Código/tutorial/suporte | Jason Johnston (Microsoft) [@jasonjoh](//github.com/jasonjoh)                                 |
+| Slides                    | Jeremy Thake (Microsoft) [@jthake-MSFT](//github.com/jthake-msft)                             |
+| CONTROLE                        | Andrew Connell (Microsoft MVP, Voitanos) [@andrewconnell](//github.com/andrewconnell)         |
+| CONTROLE                        | Julie Turner (Microsoft MVP, consultoria de Sympraxis) [@juliemturner](//github.com/juliemturner) |
+
+## <a name="version-history"></a>Histórico de versão
+
+| Versão |       Data       |              Comments              |
+| ------- | ---------------- | ---------------------------------- |
+| 1.6     | 18 de junho de 2019    | Adicionado link à gravação do screencast |
+| 1,5     | 24 de maio de 2019     | atualização de conteúdo do 2019Q4             |
+| 1.4     | 22 de maio de 2019     | Atualizações de início rápido                 |
+| 1.3     | 16 de maio de 2019     | Etapas atualizadas de registro do aplicativo AAD |
+| 1.2     | 6 de março de 2019    | atualização de conteúdo do 2019Q3             |
+| 1.1     | 8 de fevereiro de 2019 | Slides adicionados                       |
+| 1.0     | 2018             | Published                          |
 
 ## <a name="disclaimer"></a>Aviso de isenção de responsabilidade
 
