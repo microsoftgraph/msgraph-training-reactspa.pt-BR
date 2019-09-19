@@ -74,11 +74,24 @@ async login() {
     await this.getUserProfile();
   }
   catch(err) {
-    var errParts = err.split('|');
+    var error = {};
+
+    if (typeof(err) === 'string') {
+      var errParts = err.split('|');
+      error = errParts.length > 1 ?
+        { message: errParts[1], debug: errParts[0] } :
+        { message: err };
+    } else {
+      error = {
+        message: err.message,
+        debug: JSON.stringify(err)
+      };
+    }
+
     this.setState({
       isAuthenticated: false,
       user: {},
-      error: { message: errParts[1], debug: errParts[0] }
+      error: error
     });
   }
 }
@@ -239,7 +252,7 @@ Agora, se você salvar as alterações e iniciar o aplicativo, depois de entrar,
 
 ![Uma captura de tela da Home Page após entrar](./images/add-aad-auth-01.png)
 
-Clique no avatar do usuário no canto superior direito para acessar o **** link sair. Clicar **** em sair redefine a sessão e retorna à Home Page.
+Clique no avatar do usuário no canto superior direito para **acessar o link sair.** Clicar **em sair** redefine a sessão e retorna à Home Page.
 
 ![Uma captura de tela do menu suspenso com o link sair](./images/add-aad-auth-02.png)
 
