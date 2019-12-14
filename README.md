@@ -10,7 +10,7 @@ Neste laboratório, você criará um aplicativo de remissão de página única, 
 
 ## <a name="demos"></a>Demonstrações
 
-O [](./demos) diretório demos neste repositório contém cópias do projeto que correspondem à conclusão de seções individuais do tutorial. Se você só quiser demonstrar uma seção específica do tutorial, você pode começar com a versão da seção anterior.
+O diretório [demos](./demos) neste repositório contém cópias do projeto que correspondem à conclusão de seções individuais do tutorial. Se você só quiser demonstrar uma seção específica do tutorial, você pode começar com a versão da seção anterior.
 
 - [01-create-app](demos/01-create-app): concluído [criar um aplicativo de página única reagir](https://docs.microsoft.com/graph/training/react-tutorial?tutorial-step=1)
 - [02-Add-AAD-auth](demos/02-add-aad-auth): concluído [Adicionar autenticação do Azure ad](https://docs.microsoft.com/graph/training/react-tutorial?tutorial-step=3)
@@ -39,6 +39,7 @@ Este módulo foi gravado e está disponível no Office Development YouTube Chann
 
 | Versão |       Data       |              Comments              |
 | ------- | ---------------- | ---------------------------------- |
+| 1.7     | 3 de dezembro de 2019 | Atualizar para o SDK do Graph mais recente e`create-react-app` |
 | 1.6     | 18 de junho de 2019    | Adicionado link à gravação do screencast |
 | 1,5     | 24 de maio de 2019     | atualização de conteúdo do 2019Q4             |
 | 1.4     | 22 de maio de 2019     | Atualizações de início rápido                 |
