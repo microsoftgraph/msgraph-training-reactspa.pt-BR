@@ -8,19 +8,11 @@ Neste laboratório, você criará um aplicativo de remissão de página única, 
 
 - [Responder o tutorial do Microsoft Graph](https://docs.microsoft.com/graph/training/react-tutorial)
 
-## <a name="demos"></a>Demonstrações
-
-O diretório [demos](./demos) neste repositório contém cópias do projeto que correspondem à conclusão de seções individuais do tutorial. Se você só quiser demonstrar uma seção específica do tutorial, você pode começar com a versão da seção anterior.
-
-- [01-create-app](demos/01-create-app): concluído [criar um aplicativo de página única reagir](https://docs.microsoft.com/graph/training/react-tutorial?tutorial-step=1)
-- [02-Add-AAD-auth](demos/02-add-aad-auth): concluído [Adicionar autenticação do Azure ad](https://docs.microsoft.com/graph/training/react-tutorial?tutorial-step=3)
-- [03-Add-msgraph](demos/03-add-msgraph): concluído [obter dados de calendário](https://docs.microsoft.com/graph/training/react-tutorial?tutorial-step=4)
-
 ## <a name="completed-sample"></a>Exemplo completo
 
 Se você só quiser que o exemplo completo seja gerado seguindo este laboratório, você pode encontrá-lo aqui.
 
-- [Projeto concluído](demos/03-add-msgraph)
+- [Projeto concluído](demo)
 
 ## <a name="watch-the-module"></a>Assista ao módulo
 
@@ -37,8 +29,9 @@ Este módulo foi gravado e está disponível no Office Development YouTube Chann
 
 ## <a name="version-history"></a>Histórico de versão
 
-| Versão |       Data       |              Comments              |
+| Versão |       Data       |              Comentários              |
 | ------- | ---------------- | ---------------------------------- |
+| 1,8     | 19 de março de 2020   | Tutorial de atualização                   |
 | 1.7     | 3 de dezembro de 2019 | Atualizar para o SDK do Graph mais recente e`create-react-app` |
 | 1.6     | 18 de junho de 2019    | Adicionado link à gravação do screencast |
 | 1,5     | 24 de maio de 2019     | atualização de conteúdo do 2019Q4             |
