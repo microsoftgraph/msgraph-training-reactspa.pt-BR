@@ -5,7 +5,7 @@ Nesta seção, você criará um novo aplicativo reagir.
 1. Abra a interface de linha de comando (CLI), navegue até o diretório em que você tem direitos para criar arquivos e execute os seguintes comandos para criar um novo aplicativo de reagir.
 
     ```Shell
-    npx create-react-app@3.4.0 graph-tutorial --template typescript
+    npx create-react-app@3.4.1 graph-tutorial --template typescript
     ```
 
 1. Quando o comando terminar, mude para o `graph-tutorial` diretório na sua CLI e execute o seguinte comando para iniciar um servidor Web local.
@@ -14,7 +14,7 @@ Nesta seção, você criará um novo aplicativo reagir.
     npm start
     ```
 
-O navegador padrão é aberto [https://localhost:3000/](https://localhost:3000) com uma página de reagir padrão. Se o navegador não abrir, abra-o e navegue [https://localhost:3000/](https://localhost:3000) até para verificar se o novo aplicativo funciona.
+O navegador padrão é aberto [https://localhost:3000/](https://localhost:3000) com uma página de reagir padrão. Se o navegador não abrir, abra-o e navegue até [https://localhost:3000/](https://localhost:3000) para verificar se o novo aplicativo funciona.
 
 ## <a name="add-node-packages"></a>Adicionar pacotes de nós
 
@@ -25,14 +25,15 @@ Antes de prosseguir, instale alguns pacotes adicionais que serão usados posteri
 - [reactstrap](https://github.com/reactstrap/reactstrap) para os componentes de reagir baseados na inicialização.
 - [fontawesome-livre](https://github.com/FortAwesome/Font-Awesome) para ícones.
 - [tempo](https://github.com/moment/moment) para formatar datas e horas.
-- [MSAL](https://github.com/AzureAD/microsoft-authentication-library-for-js) para autenticação no Azure Active Directory e recuperação de tokens de acesso.
+- [Windows-IANA](https://github.com/rubenillodo/windows-iana) para conversão de fuso horário do Windows para o formato IANA.
+- [MSAL-navegador](https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/lib/msal-browser) para autenticação no Azure Active Directory e recuperação de tokens de acesso.
 - [Microsoft-Graph-Client](https://github.com/microsoftgraph/msgraph-sdk-javascript) para fazer chamadas para o Microsoft Graph.
 
 Execute o seguinte comando em sua CLI.
 
 ```Shell
-npm install react-router-dom@5.1.2 @types/react-router-dom@5.1.3 bootstrap@4.4.1 reactstrap@8.4.1 @types/reactstrap@8.4.2
-npm install @fortawesome/fontawesome-free@5.12.1 moment@2.24.0 msal@1.2.1 @microsoft/microsoft-graph-client@2.0.0 @types/microsoft-graph@1.12.0
+npm install react-router-dom@5.2.0 @types/react-router-dom@5.1.5 bootstrap@4.5.2 reactstrap@8.5.1 @types/reactstrap@8.5.1 @fortawesome/fontawesome-free@5.14.0
+npm install moment@2.27.0 moment-timezone@0.5.31 windows-iana@4.2.1 @azure/msal-browser@2.1.0 @microsoft/microsoft-graph-client@2.0.0 @types/microsoft-graph@1.18.0
 ```
 
 ## <a name="design-the-app"></a>Projetar o aplicativo
